@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "1. Tune (Map.cdt)",
+    "Projects": [
+      {
+        "Path": "src\\Open-CDT-CLI\\Open-CDT-CLI.csproj",
+        "Action": "Start",
+        "DebugTarget": "1. Tune (Map.cdt)"
+      }
+    ]
+  },
+  {
+    "Name": "2. Science (Run.cdt)",
+    "Projects": [
+      {
+        "Path": "src\\Open-CDT-CLI\\Open-CDT-CLI.csproj",
+        "Action": "Start",
+        "DebugTarget": "2. Science (Run.cdt)"
+      }
+    ]
+  },
+  {
+    "Name": "3. Plot Results",
+    "Projects": [
+      {
+        "Path": "src\\Open-CDT-CLI\\Open-CDT-CLI.csproj",
+        "Action": "Start",
+        "DebugTarget": "3. Plot Results"
+      }
+    ]
+  },
+  {
+    "Name": "4. Benchmarks",
+    "Projects": [
+      {
+        "Path": "benchmarks\\CDT-Benchmarks\\CDT-Benchmarks.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": "4. Benchmarks"
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "4. Benchmarks": {
+      "commandName": "Project",
+      "workingDirectory": "$(SolutionDir)",
+      "commandLineArgs": "--filter *"
+    }
+  }
+}

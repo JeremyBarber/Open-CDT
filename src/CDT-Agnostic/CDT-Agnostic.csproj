@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="CDT-Agnostic-Tests" />
+    <InternalsVisibleTo Include="CDT-Benchmarks" />
+  </ItemGroup>
+
+</Project>

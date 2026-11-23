@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/Physics/">
+    <Project Path="src/CDT-2plus1/CDT-2plus1.csproj" />
+    <Project Path="src/CDT-Agnostic/CDT-Agnostic.csproj" />
+    <Project Path="src/Open-CDT/Open-CDT.csproj" />
+  </Folder>
+  <Folder Name="/Physics/Benchmarks/">
+    <Project Path="benchmarks/CDT-Benchmarks/CDT-Benchmarks.csproj" Id="fbf51589-04e6-457b-9985-25bce234583f" />
+  </Folder>
+  <Folder Name="/Physics/Tests/">
+    <Project Path="tests/CDT-2plus1-Tests/CDT-2plus1-Tests.csproj" />
+    <Project Path="tests/CDT-Agnostic-Tests/CDT-Agnostic-Tests.csproj" />
+    <Project Path="tests/Open-CDT-CLI-Tests/Open-CDT-CLI-Tests.csproj" />
+    <Project Path="tests/Open-CDT-Tests/Open-CDT-Tests.csproj" />
+  </Folder>
+  <Project Path="src/Open-CDT-CLI/Open-CDT-CLI.csproj" />
+</Solution>

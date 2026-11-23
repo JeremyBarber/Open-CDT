@@ -1,0 +1,32 @@
+Simulation:
+  Name: Canonical_16k_32T
+  Workflow: CanonicalEnsemble
+  Replicas: 8
+  SpacelikeDimensions: 2
+
+Seed:
+  K: 2
+  Timeslices: 32
+  Rng: 42
+
+Physics:
+  K0: 5.05
+  Kd: 1.37
+  Delta: 0.69
+  Epsilon: 0.0005
+  TargetVolume: 16000
+
+Thermalization:
+  BurnInSweeps: 300000
+  WindowSweeps: 5000
+
+Sampling:
+  SamplesPerReplica: 50
+  MinDecorrelationSweeps: 2500
+  HausdorffSamples: 25
+  HausdorffMaxRadius: 25
+  SpectralSamples: 25
+  SpectralMaxSigma: 100
+
+Output:
+  Directory: results

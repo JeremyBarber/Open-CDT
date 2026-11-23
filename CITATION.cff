@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Open-CDT: High-Performance Causal Dynamical Triangulations Quantum Gravity Engine"
+message: "If you use Open-CDT in your research, please cite it using the metadata from this file."
+type: software
+authors:
+  - given-names: "Jeremy Andrew"
+    family-names: "Barber"
+    orcid: "https://orcid.org/0009-0004-9683-0187"
+repository-code: "https://github.com/JeremyBarber/Open-CDT"
+license: MIT
+keywords:
+  - causal-dynamical-triangulations
+  - quantum-gravity
+  - lattice-quantum-gravity
+  - monte-carlo-simulation
+  - simplicial-quantum-gravity
+  - de-sitter-spacetime
+  - high-performance-computing

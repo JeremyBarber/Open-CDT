@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "1. Tune (Map.cdt)": {
+      "commandName": "Project",
+      "commandLineArgs": "simulate config/2plus1/Map.cdt",
+      "workingDirectory": "$(SolutionDir)"
+    },
+    "2. Science (Run.cdt)": {
+      "commandName": "Project",
+      "commandLineArgs": "simulate config/2plus1/Run.cdt",
+      "workingDirectory": "$(SolutionDir)"
+    },
+    "3. Plot Results": {
+      "commandName": "Project",
+      "commandLineArgs": "plot results/<name>/<timestamp>",
+      "workingDirectory": "$(SolutionDir)"
+    }
+  }
+}

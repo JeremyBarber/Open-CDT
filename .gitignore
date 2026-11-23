@@ -1,0 +1,15 @@
+# Build outputs
+bin/
+obj/
+*.user
+
+# VS/Rider artefacts
+.vs/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Debug logs and scratch files
+results/

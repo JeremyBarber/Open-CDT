@@ -1,0 +1,33 @@
+Simulation:
+  Name: Checkpoint_Save
+  Workflow: CanonicalEnsemble
+  Replicas: 4
+  SpacelikeDimensions: 2
+
+Seed:
+  K: 2
+  Timeslices: 32
+  Rng: 42
+
+Physics:
+  K0: 5.05
+  Kd: 1.374610
+  Delta: 0.69
+  Epsilon: 0.0005
+  TargetVolume: 16000
+
+Thermalization:
+  BurnInSweeps: 3000
+  WindowSweeps: 1000
+
+Sampling:
+  SamplesPerReplica: 2
+  MinDecorrelationSweeps: 200
+  HausdorffSamples: 5
+  HausdorffMaxRadius: 15
+  SpectralSamples: 5
+  SpectralMaxSigma: 50
+
+Output:
+  Directory: results
+  SaveTo: ensemble.cdtbin
